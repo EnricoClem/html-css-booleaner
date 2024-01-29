@@ -3,6 +3,8 @@
     box-sizing: border-box;
 }
 
+/* Banner e logo HEADER */
+
 header {
     height: 150px;
     background-color: rgb(105, 153, 255);
@@ -16,6 +18,8 @@ header img {
     margin-top: 50px;
     margin-left: 150px;
 }
+
+/* Inizio Body: titolo e immagini */
 
 main {
     margin: 50px 150px 50px 150px;
@@ -46,4 +50,34 @@ h2 {
 section, img {
     display: block;
     margin-bottom: 5px;
+}
+
+/* Testo e lista */
+
+.mark {
+    background-color: yellow;
+}
+
+ul {
+    margin: 30px 0px 30px 0px;
+    padding: 12px;
+}
+
+/* Tabella */
+
+table {
+    border-spacing: 0;
+    table-layout: fixed;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+thead {
+    background-color: rgb(105, 153, 255);
+    color: white;
+    font-weight: 900;
+}
+
+.row-color {
+    background-color: rgba(105, 153, 255, 0.4);
 }
