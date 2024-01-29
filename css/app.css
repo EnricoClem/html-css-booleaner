@@ -21,7 +21,7 @@ header img {
 
 /* Inizio Body: titolo e immagini */
 
-main {
+main, aside {
     margin: 50px 150px 50px 150px;
 }
 
@@ -47,7 +47,7 @@ h2 {
     margin-bottom: 30px;
 }
 
-section, img {
+section img {
     display: block;
     margin-bottom: 5px;
 }
@@ -80,4 +80,30 @@ thead {
 
 .row-color {
     background-color: rgba(105, 153, 255, 0.4);
+}
+
+/* Potrebbero interessarti */
+
+h3 {
+    font-weight: bolder;
+}
+
+.interest {
+    color: white;
+    font-size: x-large;
+    font-weight: 700;
+    padding: 20px;
+    margin-top: 10px;
+    height: 200px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.one {
+    background-image: url(../img/monitor.jpg);
+}
+
+.two {
+    background-image: url(../img/graph.jpg);
 }
