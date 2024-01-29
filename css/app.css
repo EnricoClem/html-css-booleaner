@@ -16,3 +16,34 @@ header img {
     margin-top: 50px;
     margin-left: 150px;
 }
+
+main {
+    margin: 50px 150px 50px 150px;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+.sottotitolo {
+    color: grey;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+.credits {
+    color: rgb(105, 153, 255);
+}
+
+.didascalia {
+    font-size: medium;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+
+section, img {
+    display: block;
+    margin-bottom: 5px;
+}
